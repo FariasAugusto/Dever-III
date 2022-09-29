@@ -13,27 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-html::-webkit-scrollbar {
-  width: 5px;
-}
-
-html::-webkit-scrollbar-track {
-  background: #313131;
-}
-
-html::-webkit-scrollbar-thumb {
-  background: #080808a8;
-  border-radius: 10px;
-}
-
-html::-webkit-scrollbar-thumb:hover {
-  background: #FCFCFF;
-}
-
-html::-webkit-scrollbar-thumb:active {
-  background: #FCFCFF;
-}
-
 .cabecalho {
   display: flex;
   flex-direction: row;
@@ -43,7 +22,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .cabecalho-imagem {
-  height: 72px;
+  height: 100px;
 }
 
 .cabecalho-menu {
@@ -114,8 +93,8 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .conteudo-principal-imagem {
-  height: 10%;
-  width: 10%;
+  height: 30%;
+  width: 30%;
   margin: 0px 120px;
 }
 
@@ -152,8 +131,8 @@ html::-webkit-scrollbar-thumb:active {
 }
 
 .rodape-imagem {
-  height: 10%;
-  width: 10%;
+  height: 20%;
+  width: 20%;
   display: block;
   margin: 35px;
 }
