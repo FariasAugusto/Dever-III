@@ -9,8 +9,35 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #12367a 16.62%, #143d8a 16.62%);
+  background: linear-gradient(57deg, #74a2ff, #244fa5, #001031);
+  background-size: 600% 600%;
   overflow-x: hidden;
+
+  -webkit-animation: AnimationName 0s ease infinite;
+  -moz-animation: AnimationName 0s ease infinite;
+  -o-animation: AnimationName 0s ease infinite;
+  animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 84%}
+  50%{background-position:100% 17%}
+  100%{background-position:0% 84%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 84%}
+  50%{background-position:100% 17%}
+  100%{background-position:0% 84%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 84%}
+  50%{background-position:100% 17%}
+  100%{background-position:0% 84%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 84%}
+  50%{background-position:100% 17%}
+  100%{background-position:0% 84%}
 }
 
 .cabecalho {
@@ -37,14 +64,14 @@ body {
   font-size: 18px
 }
 
-.cabecalho-menu-item:hover{
+.cabecalho-menu-item:hover {
   scale: 1.07;
 }
 
 .conteudo {
   margin-bottom: 48px;
   padding: 50px;
-  border-top: 0.4px solid ;
+  border-top: 0.4px solid;
 }
 
 .conteudo-principal {
