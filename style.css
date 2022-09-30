@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(57deg, #74a2ff, #244fa5, #001031);
+  background: linear-gradient(57deg, #3779ff, #1749ac, #06328b);
   background-size: 100% 100%;
   overflow-x: hidden;
 }
@@ -77,16 +77,20 @@ body {
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #12367a;
+  background-color: #0d3c94;
   width: 180px;
-  height: 75px;
-  border: none;
+  border: size 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
   box-shadow: 8px 9px 8px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  border-color: #f0f0f0;
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #070707;
+  color: #f0f0f0;
 }
 
 .conteudo-principal-escrito-botao:hover {
