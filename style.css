@@ -18,12 +18,12 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  padding: 24px;
+  justify-content: space-between;
+  padding: 20px 100px;
 }
 
 .cabecalho-imagem {
-  height: 100px;
+  height: 60px;
 }
 
 .cabecalho-menu {
