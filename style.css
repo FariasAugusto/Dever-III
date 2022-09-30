@@ -10,34 +10,8 @@
 body {
   font-size: 100%;
   background: linear-gradient(57deg, #74a2ff, #244fa5, #001031);
-  background-size: 600% 600%;
+  background-size: 100% 100%;
   overflow-x: hidden;
-
-  -webkit-animation: AnimationName 0s ease infinite;
-  -moz-animation: AnimationName 0s ease infinite;
-  -o-animation: AnimationName 0s ease infinite;
-  animation: AnimationName 0s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 84%}
-  50%{background-position:100% 17%}
-  100%{background-position:0% 84%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 84%}
-  50%{background-position:100% 17%}
-  100%{background-position:0% 84%}
-}
-@-o-keyframes AnimationName {
-  0%{background-position:0% 84%}
-  50%{background-position:100% 17%}
-  100%{background-position:0% 84%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 84%}
-  50%{background-position:100% 17%}
-  100%{background-position:0% 84%}
 }
 
 .cabecalho {
